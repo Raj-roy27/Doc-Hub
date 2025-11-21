@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+}
+span {
+  font-family: "Gilroy-Bold";
+  display: inline-block;
+}
+
+::selection {
+  color: rgb(232, 145, 47);
+}
