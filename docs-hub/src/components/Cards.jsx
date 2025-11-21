@@ -11,7 +11,6 @@ const Cards = ({ data, reference }) => {
       dragConstraints={reference}
       whileDrag={{ scale: 1.1 }}
       dragElastic={0.2}
-      dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
       className="relative w-50 h-60 bg-zinc-900/90 rounded-4xl text-white px-5 py-8 overflow-hidden "
     >
       <IoDocumentTextOutline />
